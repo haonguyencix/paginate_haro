@@ -1,0 +1,10 @@
+.__pagination {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.btn:focus {
+  box-shadow: none;
+}
