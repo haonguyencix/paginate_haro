@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./style.css";
 
 const Pagination = (props) => {
   const { totalRec, curPage = 1, recPerPage = 10, maxPageDisplay = 10, onChangePage } = props;
